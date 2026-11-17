@@ -2,6 +2,8 @@
 
 How to turn a **JZ0145 v40** USB 4G/WiFi dongle (Qualcomm MSM8916) into a small Debian 12 Linux box, using [OpenStick](https://github.com/kinsamanka/OpenStick-Builder).
 
+> The same recipe also works on the **JZ08C** pocket WiFi with a TFT screen. See [jz08c-openstick](https://github.com/Yeet2042/jz08c-openstick).
+
 Earlier guides cover the **v33** board. This repo records what it took to get **v40** working, including the step most guides skip and the approaches that failed.
 
 <p align="center">
@@ -59,7 +61,7 @@ Tested on one v40 board:
 ## Install
 
 ```bash
-git clone https://github.com/yeet2042/jz0145-v40-openstick
+git clone https://github.com/Yeet2042/jz0145-v40-openstick
 cd jz0145-v40-openstick
 ./flash.sh            # all stages
 ./flash.sh --help     # or run stage by stage
